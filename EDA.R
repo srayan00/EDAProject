@@ -22,7 +22,7 @@ cricket_cleaned %>%
 
 #scatter plot with usage_rate and economy
 cricket_cleaned %>%
-  ggplot(aes(x = usage_rate, y = economy)) +
+  ggplot(aes(x = usage_rate, y = maiden_ratio)) +
   geom_point() + 
   geom_smooth() +
   theme_bw()
